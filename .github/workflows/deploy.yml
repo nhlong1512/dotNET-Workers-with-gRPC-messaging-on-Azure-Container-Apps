@@ -5,9 +5,10 @@ on:
     branches:
     - deploy
 
-env:  
+env:
+  
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: azgrrc7thd
+  RESOURCE_GROUP_NAME: wadacagprc
 
   # specify your preferred region
   REGION: eastus
