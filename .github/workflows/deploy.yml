@@ -7,8 +7,8 @@ on:
 
 env:
   
-  # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: azgprcsd1
+  # alphanumeric string under 14 characters2
+  RESOURCE_GROUP_NAME: hdat1gprc
 
   # specify your preferred region
   REGION: eastus
@@ -48,7 +48,6 @@ jobs:
     - name: Creating resources
       uses: azure/CLI@v1
       with:
-        azcliversion:  2.53.0
         inlineScript: >
           echo "Creating resources"
 
