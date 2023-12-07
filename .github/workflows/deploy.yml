@@ -48,7 +48,7 @@ jobs:
     - name: Creating resources
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.37.0
+        azcliversion:  2.53.0
         inlineScript: >
           echo "Creating resources"
 
