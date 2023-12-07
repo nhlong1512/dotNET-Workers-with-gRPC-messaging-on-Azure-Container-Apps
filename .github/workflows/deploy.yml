@@ -7,10 +7,10 @@ on:
 
 env:  
   # alphanumeric string under 14 characters
-  RESOURCE_GROUP_NAME: grpconaca
+  RESOURCE_GROUP_NAME: azgrrc7thd
 
   # specify your preferred region
-  REGION: canadacentral
+  REGION: eastus
 
   FRONTEND_DOCKER: Frontend/Dockerfile
   FRONTEND_IMAGE: frontend
