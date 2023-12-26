@@ -8,7 +8,7 @@ on:
 env:
   
   # alphanumeric string under 14 characters2
-  RESOURCE_GROUP_NAME: hdat1gprc
+  RESOURCE_GROUP_NAME: hdatgprc
 
   # specify your preferred region
   REGION: eastus
